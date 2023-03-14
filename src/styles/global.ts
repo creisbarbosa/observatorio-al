@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+
   * {
     margin: 0;
     padding: 0;
@@ -17,14 +18,18 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: 0 0 0 2px ${(props) => props.theme['red-300']}
   }
 
-  body, input, textarea, button {
-    font-family: "degular-variable", sans-serif;
-    font-variation-settings: "wght" 400, "opsz" 14, "ital" 0;
+  body, input, textarea, button, h1 {
+    font-family: "degular", Segoe UI, sans-serif;
     font-size: 1rem;
   }
 
+  h2 {
+    font-family: "degular", Segoe UI, sans-serif;
+    font-weight: 800;
+  }
+
   p {
-    font-family: 'EB Garamond', serif;
+    font-family: "garamond-premier-pro", serif;
   }
 `
 
