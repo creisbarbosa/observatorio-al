@@ -7,7 +7,6 @@ import {
   ParagraphsContainer,
   SocialMediaContainer,
 } from './styled'
-import Background from '../../assets/dennis-schrader-9i7Jla4lwO4-unsplash.jpg'
 import {
   EnvelopeSimpleOpen,
   InstagramLogo,
@@ -25,7 +24,7 @@ export function Construction() {
         </h1>
         <img src={Logo} alt="" />
       </LogoContainer>
-      <ImageContainer img={Background}></ImageContainer>
+      <ImageContainer />
       <MainContainer>
         <TextContainer>
           <hr />

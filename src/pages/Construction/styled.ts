@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { device } from '../../styles/global'
+import BackgroundImage from '../../assets/dennis-schrader-9i7Jla4lwO4-unsplash.jpg'
 
 export const ConstructionSections = styled.section`
   display: flex;
@@ -45,7 +46,7 @@ export const ImageContainer = styled.div`
   @media ${device.laptop} {
     visibility: visible;
     width: 100%;
-    background: url(${(props) => props.img});
+    background-image: url(${BackgroundImage});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
